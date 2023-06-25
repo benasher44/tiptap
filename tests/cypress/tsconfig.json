@@ -8,7 +8,8 @@
     "paths": {
       "@tiptap/*": ["packages/*/dist", "packages/*/src"],
       "@tiptap/pm/*": ["../../pm/*/dist"]
-    }
+    },
+    "moduleResolution": "Node"
   },
   "include": ["./*/*.ts", "../../**/*.ts"]
 }
